@@ -6,10 +6,7 @@
         para remover a barra de topo padrão, barra que não será necessária no
         app de Relógio Mundial.
     -->
-    <style
-        name="AppTheme"
-        parent="Theme.AppCompat.Light.NoActionBar">
-
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:windowBackground">@drawable/background</item>
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
@@ -21,16 +18,12 @@
         visual desenvolvida no protótipo estático.
     -->
     <style name="AppTheme.SpinnerTheme">
-
         <item name="android:textViewStyle">
             @style/AppTheme.TextViewStyle
         </item>
     </style>
 
-    <style
-        name="AppTheme.TextViewStyle"
-        parent="android:Widget.TextView">
-
+    <style name="AppTheme.TextViewStyle" parent="android:Widget.TextView">
         <item name="android:textColor">@android:color/white</item>
         <item name="android:fontFamily">@font/josefin_sans_regular</item>
     </style>

@@ -31,4 +31,8 @@ dependencies {
 
     /* Biblioteca TrueTime */
     implementation 'com.github.instacart.truetime-android:library-extension-rx:09087b6a6e'
+
+    /* Lottie */
+    implementation 'com.airbnb.android:lottie:2.6.0-beta19'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
 }
